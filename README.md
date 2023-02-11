@@ -25,3 +25,11 @@ La libreria symbolic se tiene que instalar dentro de la consola de octave con el
 ~~~~ m
 pkg install -forge symbolic
 ~~~~
+
+Si el codigo se va a correr directamente en Mathlab se tiene que eliminar la siguiente linea de codigo de cada archivo .m:
+
+~~~~ m
+
+pkg load symbolic
+
+~~~~
